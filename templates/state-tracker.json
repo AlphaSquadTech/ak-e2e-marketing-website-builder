@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "project_name": "",
+  "source_documents": [],
+  "created_at": "",
+  "last_updated": "",
+  "current_phase": "plan",
+  "design_inputs": {
+    "accent_color": "",
+    "accent_color_source": "",
+    "font_preference": "",
+    "font_preference_source": ""
+  },
+  "plan": {},
+  "pages": [],
+  "shared_components": [],
+  "session_log": [],
+  "issues": [],
+  "audit": {
+    "seo_passed": false,
+    "accessibility_passed": false,
+    "responsive_passed": false,
+    "performance_passed": false,
+    "completed_at": null
+  }
+}

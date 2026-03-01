@@ -1,0 +1,120 @@
+{
+  "project_name": "my-marketing-site",
+  "site_name": "Brand Name",
+  "site_description": "Brief description of what the site promotes",
+  "target_audience": "Who this site is for",
+  "source_documents": [
+    {
+      "path": "requirements.md",
+      "type": "markdown",
+      "description": "Main requirements document"
+    }
+  ],
+  "design_system": {
+    "_note": "Auto-generated from design_inputs (accent_color + font_preference)",
+    "primary": "#2563eb",
+    "primary_foreground": "#ffffff",
+    "secondary": "#93a3d1",
+    "background": "#ffffff",
+    "foreground": "#0a0a0a",
+    "muted": "#6b7280",
+    "muted_background": "#f3f4f6",
+    "border": "#e5e7eb",
+    "destructive": "#ef4444",
+    "font_heading": "Inter",
+    "font_body": "Inter",
+    "border_radius": "0.5rem"
+  },
+  "seo_strategy": {
+    "primary_keyword": "main keyword",
+    "secondary_keywords": ["keyword 2", "keyword 3"],
+    "target_locale": "en_US",
+    "base_url": "https://example.com"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "route": "/",
+      "title": "Brand Name — Value Proposition",
+      "meta_description": "Compelling 150-char description with primary keyword.",
+      "h1": "Main Headline with Primary Keyword",
+      "target_keyword": "main keyword",
+      "structured_data_type": "WebSite",
+      "components": ["Hero", "FeatureGrid", "Testimonials", "CTABanner"],
+      "content_source": "requirements.md#introduction",
+      "priority": "high",
+      "description": "Homepage with hero, key features, social proof, and CTA"
+    },
+    {
+      "id": "features",
+      "route": "/features",
+      "title": "Features — Brand Name",
+      "meta_description": "Explore the features that make Brand Name powerful.",
+      "h1": "Features Built for Your Needs",
+      "target_keyword": "product features",
+      "structured_data_type": "WebPage",
+      "components": ["FeatureHero", "FeatureCards", "DetailSections"],
+      "content_source": "requirements.md#features",
+      "priority": "high",
+      "description": "Detailed feature breakdown with visuals and examples"
+    },
+    {
+      "id": "pricing",
+      "route": "/pricing",
+      "title": "Pricing — Brand Name",
+      "meta_description": "Simple, transparent pricing for teams of all sizes.",
+      "h1": "Simple, Transparent Pricing",
+      "target_keyword": "pricing plans",
+      "structured_data_type": "Product",
+      "components": ["PricingHero", "PricingTable", "FAQ", "CTABanner"],
+      "content_source": "requirements.md#pricing",
+      "priority": "medium",
+      "description": "Pricing tiers with feature comparison and FAQ"
+    },
+    {
+      "id": "about",
+      "route": "/about",
+      "title": "About — Brand Name",
+      "meta_description": "Learn about the team and mission behind Brand Name.",
+      "h1": "About Brand Name",
+      "target_keyword": "about company",
+      "structured_data_type": "Organization",
+      "components": ["AboutHero", "MissionSection", "TeamGrid"],
+      "content_source": "requirements.md#about",
+      "priority": "medium",
+      "description": "Company story, mission, and team"
+    },
+    {
+      "id": "contact",
+      "route": "/contact",
+      "title": "Contact — Brand Name",
+      "meta_description": "Get in touch with the Brand Name team.",
+      "h1": "Contact Us",
+      "target_keyword": "contact",
+      "structured_data_type": "WebPage",
+      "components": ["ContactForm", "ContactInfo"],
+      "content_source": "requirements.md#contact",
+      "priority": "low",
+      "description": "Contact form and company contact information"
+    }
+  ],
+  "build_order": ["layout", "home", "features", "pricing", "about", "contact"],
+  "shared_components": [
+    {
+      "name": "Header",
+      "description": "Site navigation with logo, links, and CTA button"
+    },
+    {
+      "name": "Footer",
+      "description": "Footer with link columns, newsletter signup, social links"
+    },
+    {
+      "name": "Section",
+      "description": "Reusable section wrapper with consistent padding and container"
+    },
+    {
+      "name": "CTA",
+      "description": "Call-to-action button component with primary/secondary variants"
+    }
+  ]
+}
