@@ -173,7 +173,7 @@ ak-e2e-marketing-website-builder/
 |----------|----------|-------------|
 | `GEMINI_API_KEY` | For image generation | Gemini API key. Saved in state file after first use. Get one free at [aistudio.google.com/apikey](https://aistudio.google.com/apikey) |
 | `GOOGLE_API_KEY` | Alternative | Works as a fallback if `GEMINI_API_KEY` isn't set |
-| `IMAGE_MODEL` | No | Override the Gemini model (default: `gemini-3.1-flash-image-preview`) |
+| `IMAGE_MODEL` | No | Override the Gemini model (default: `gemini-3-pro-image-preview`) |
 
 ## License
 
